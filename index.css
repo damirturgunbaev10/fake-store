@@ -57,6 +57,12 @@ ul {
   align-items: center;
   gap: 5px;
   padding: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 img {
@@ -66,12 +72,13 @@ img {
 
 .link {
   width: 100%;
-  height: 400px;
+    height: auto;
 }
 
 .link-container {
   width: 1400px;
   height: 400px;    
+
   margin: auto;
   display: flex;
   justify-content: center;
@@ -79,7 +86,6 @@ img {
 }
 
 .link-text{
-  padding-top: 80px;
   font-size: 30px;
   font-weight: 700;
   text-align: center;
@@ -96,7 +102,7 @@ img {
   border-radius: 10px;
   color: white;
   cursor: pointer;
-
+  transition: all 0.4s;
 }
 
 .btn a{
@@ -104,17 +110,18 @@ img {
 }
 
 .btn:hover{
+  transform: scale(1.05);
   background-color: #1f02d8;
 }
 
 .container{
   width: 100%;
-  height: 400px;
+  height: auto;
 }
 
 .container-items {
   width: 1400px;
-  height: 400px;
+  height: auto;
   margin: auto;
   display: flex;
   justify-content: space-around;
