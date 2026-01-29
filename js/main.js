@@ -96,7 +96,7 @@ function filterByCheckbox() {
   elCheckboxInputs.forEach((checkbox) => {
     if (checkbox.checked) {
       checkedCategories.push(checkbox.value);
-    }
+    }gu
   });
 
   if (checkedCategories.length === 0) {
